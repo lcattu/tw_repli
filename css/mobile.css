@@ -1,0 +1,292 @@
+@charset "UTF-8";
+body .wrapper {
+  max-width: 930px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*------------------*/
+  /*aside*/
+  /*------------------*/
+  /*-------------------------------------*/
+  /*-- /aside--------------------------*/
+  /*-------------------------------------*/
+  /*--main------------------------------*/
+  /*-------------------------------------*/
+  /*--  //main---------------------------*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*--  join-menu ---------------------*/
+  /*-------------------------------------*/
+  /*--  //join-menu----------------------*/
+  /*-------------------------------------*/
+  /*-------------------------------------*/
+  /*--  mobile-menu ---------------------*/
+  /*-------------------------------------*/
+}
+
+body .wrapper .aside-container .aside {
+  display: inline-block;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 300px;
+  background-color: #8c82fc;
+}
+
+body .wrapper .aside-container .aside .aside-menu {
+  float: left;
+  list-style: none;
+  width: 233px;
+  padding: 0 21px;
+  margin: 0 30px;
+}
+
+body .wrapper .aside-container .aside .aside-menu .logo {
+  margin: 12px 12px 12px 0;
+  width: 30px;
+  height: 30px;
+}
+
+body .wrapper .aside-container .aside .aside-menu li {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 7px 10px;
+  margin: 20px 0;
+  border-radius: 25px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .wrapper .aside-container .aside .aside-menu li a {
+  color: #44464d;
+  text-decoration: none;
+}
+
+body .wrapper .aside-container .aside .aside-menu li:hover {
+  background-color: #B9DDF7;
+}
+
+body .wrapper .aside-container .aside .aside-menu li:hover a {
+  color: #38ACF4;
+}
+
+body .wrapper .aside-container .aside .aside-menu .post-btn {
+  display: inline-block;
+  padding: 7px 70px;
+  margin: 20px 0;
+  border-radius: 25px;
+  background-color: #38ACF4;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .wrapper .aside-container .aside .aside-menu .post-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body .wrapper .aside-container .aside .aside-menu .post-btn:hover {
+  background-color: #1a91da;
+}
+
+body .wrapper .main {
+  width: 600px;
+  display: inline-block;
+  border: 1px solid #aaa;
+  /*main => self-post-area*/
+}
+
+body .wrapper .main .main-header {
+  background-color: #b693fe;
+  height: 56px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+body .wrapper .main .main-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body .wrapper .main .main-header .title-section {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body .wrapper .main .main-header li {
+  display: inline-block;
+}
+
+body .wrapper .main .main-header li a {
+  display: block;
+  padding: 12px;
+}
+
+body .wrapper .main .main-header li a img.self-image {
+  border: 1px;
+  border-radius: 50%;
+}
+
+body .wrapper .main .self-post-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 260px;
+  border-bottom: 10px solid rgba(216, 216, 216, 0.8);
+}
+
+body .wrapper .main .self-post-area .self-icon {
+  display: block;
+  background-color: #aaa;
+  -ms-flex-preferred-size: 53px;
+      flex-basis: 53px;
+  margin: 10px;
+}
+
+body .wrapper .main .self-post-area .self-icon img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+
+body .wrapper .main .self-post-area .input-area .txt-area {
+  width: 510px;
+}
+
+body .wrapper .main .self-post-area .input-area .txt-area .txt {
+  border: 2px solid #0a0;
+  /* 枠線 */
+  border-radius: 0.67em;
+  /* 角丸 */
+  padding: 0.5em;
+  /* 内側の余白量 */
+  margin-top: 10px;
+  background-color: snow;
+  /* 背景色 */
+  width: 100%;
+  /* 横幅いっぱいにする */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* ※これがないと横にはみ出る */
+  height: 120px;
+  /* 高さ */
+  font-size: 1em;
+  /* 文字サイズ */
+  line-height: 1.2;
+  /* 行の高さ */
+}
+
+body .wrapper .main .self-post-area .input-area .add-file-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+body .wrapper .main .self-post-area .input-area .add-file-area .add {
+  margin: 25px 10px;
+}
+
+body .wrapper .main .self-post-area .input-area .add-file-area .post-btn {
+  display: inline-block;
+  padding: 7px 80px;
+  margin: 20px 0;
+  border-radius: 25px;
+  background-color: #38ACF4;
+  color: snow;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+body .wrapper .main .self-post-area .input-area .add-file-area .post-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+body .wrapper .main .self-post-area .input-area .add-file-area .post-btn:hover {
+  background-color: #1a91da;
+}
+
+body .wrapper .main .contents .msg {
+  border-bottom: 1px solid #aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wrapper .main .contents .msg .self-icon {
+  display: block;
+  -ms-flex-preferred-size: 53px;
+      flex-basis: 53px;
+  margin: 10px;
+}
+
+body .wrapper .main .contents .msg .self-icon img {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+
+body .wrapper .main .contents .msg .btn-good {
+  display: inline-block;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+body .wrapper .main .contents .msg .btn-good:hover {
+  color: #f44336;
+}
+
+body .wrapper .main .contents .msg .active {
+  color: #f44336;
+}
+
+body .wrapper .main .contents .msg .btn-good .active {
+  color: #f44336;
+}
+
+body .wrapper .mobile-menu {
+  background-color: #ff9de2;
+  width: 100%;
+  padding: 1rem;
+  height: 56px;
+  position: fixed;
+  /*絶対位置*/
+  bottom: 0;
+}
+
+body .wrapper .mobile-menu ul {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wrapper .mobile-menu ul li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+
+body .wrapper .mobile-menu ul li a {
+  display: block;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=mobile.css.map */

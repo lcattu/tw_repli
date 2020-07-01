@@ -1,0 +1,283 @@
+body{
+ 
+.wrapper {
+  max-width:930px;
+  width:100%;
+  padding:0 15px;
+  margin:0 auto;
+  display: flex;
+
+    /*------------------*/
+    /*aside*/
+    /*------------------*/
+    .aside-container{
+      .aside {
+        display: inline-block;
+        height:100vh;
+        position:sticky;
+        top:0;
+        width:300px;
+        
+        background-color: #8c82fc;
+        .aside-menu{
+          float:left;
+          list-style: none;
+          width:233px;
+          padding:0 21px;
+          margin:0 30px;
+          .logo{
+            margin:12px 12px 12px 0;
+            width:30px;
+            height:30px;
+          }
+      
+          li{
+            font-size:20px;
+            font-weight:700;
+            padding:7px 10px;
+            margin:20px 0;
+            border-radius: 25px;
+  
+            transition:.4s;
+            a{
+              color:#44464d;
+              text-decoration:none;
+            }
+          }
+          li:hover{
+            background-color:#B9DDF7;
+            a{
+              color:#38ACF4;
+            }
+          }
+          .post-btn{
+            display: inline-block;
+            padding: 7px 70px;
+            margin:20px 0;
+            border-radius: 25px;
+            background-color:#38ACF4;
+            transition:.4s;
+            a{
+              color:#fff;
+              text-decoration: none;
+              font-size:20px;
+              font-weight:700;
+      
+            }
+          }
+          .post-btn:hover {
+            background-color: #1a91da;
+          }
+  
+        }
+      }
+  
+    }
+    /*-------------------------------------*/
+    /*-- /aside--------------------------*/
+
+
+    /*-------------------------------------*/
+    /*--main------------------------------*/
+    /*-------------------------------------*/
+    .main {
+      width:600px;
+      display:inline-block;
+      border:1px solid #aaa;
+      .main-header{
+        background-color: #b693fe;
+        height:56px;
+        position:sticky;
+        top:0;
+      ul{
+        list-style: none;
+        margin:0;
+        padding:0;
+        
+      }
+      .title-section{
+        font-size:20px;
+        font-weight:700;
+      }
+      li{
+        display:inline-block;
+        a{
+          display:block;
+          padding:12px;
+          img.self-image{
+            border:1px;
+            border-radius: 50%;
+          }
+
+        }
+      }
+      }
+
+      /*main => self-post-area*/
+      .self-post-area{
+        display:flex;
+        max-height: 260px;
+        border-bottom: 10px solid rgba(216,216,216,0.8);
+        .self-icon{
+          display:block;
+          background-color:#aaa;
+          flex-basis:53px;
+          margin:10px;
+          img{
+            width:53px;
+            height:53px;
+            border-radius: 50%;
+          }
+        }
+        .input-area{
+          
+          .txt-area{
+            width:510px;
+            .txt{
+              border: 2px solid #0a0;  /* 枠線 */
+              border-radius: 0.67em;   /* 角丸 */
+              padding: 0.5em;          /* 内側の余白量 */
+              margin-top:10px;
+              background-color: snow;  /* 背景色 */
+              width: 100%;             /* 横幅いっぱいにする */
+              box-sizing: border-box;  /* ※これがないと横にはみ出る */
+              height: 120px;           /* 高さ */
+              font-size: 1em;          /* 文字サイズ */
+              line-height: 1.2;        /* 行の高さ */
+            }
+          }
+          .add-file-area{
+              display:flex;
+              list-style: none;
+              float:right;
+              .add{
+                margin:25px 10px;
+              }
+    
+
+            .post-btn{
+              display: inline-block;
+              padding: 7px 80px;
+              margin:20px 0;
+              border-radius: 25px;
+              background-color:#38ACF4;
+              color:snow;
+              border:none;
+              font-size:20px;
+              font-weight: 700;
+              transition:.4s;
+              
+              a{
+                color:#fff;
+                text-decoration: none;
+                font-size:20px;
+                font-weight:700;
+        
+              }
+            }
+            .post-btn:hover {
+              background-color: #1a91da;
+            }
+
+          }
+        }
+
+      }
+      .contents{
+        .msg{
+          border-bottom:1px solid #aaa;
+          display:flex;
+            .self-icon{
+              display:block;
+              flex-basis: 53px;
+              margin:10px;
+              img{
+                width:53px;
+                height:53px;
+                border-radius: 50%;
+              }
+
+            }
+          .btn-good{
+            display: inline-block;
+            padding: 0 8px;
+            cursor: pointer;
+          }
+          .btn-good:hover{
+            color: #f44336;
+          }
+          .active{
+            color: #f44336;
+          }
+          .btn-good .active{
+            color: #f44336;
+          }
+        
+        }
+      }
+    }
+
+
+    /*--  //main---------------------------*/
+    /*-------------------------------------*/
+
+
+
+
+
+
+    /*-------------------------------------*/
+    /*--  join-menu ---------------------*/
+    /*-------------------------------------*/
+
+
+
+
+
+
+    
+    /*--  //join-menu----------------------*/
+    /*-------------------------------------*/
+
+
+
+
+
+
+
+    /*-------------------------------------*/
+    /*--  mobile-menu ---------------------*/
+    /*-------------------------------------*/
+    
+    .mobile-menu {
+      background-color: #ff9de2;
+      width:100%;
+      padding: 1rem;
+      height:56px;
+    
+      position: fixed;
+      /*絶対位置*/
+      bottom:0;
+      ul{
+      list-style: none;
+      margin:0;
+      padding-bottom:0;
+      display:flex;
+      li{
+        display:inline-block;
+        text-align:center;
+        width:30%;
+        
+          a{
+            display:block;
+            padding:12px;
+            margin-bottom:30px;
+          }
+          
+      }
+
+    }
+  }
+}
+
+}
